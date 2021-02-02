@@ -1,0 +1,7 @@
+<script>
+var screen = location.search.slice(1).split("&")[0].split("=")[1]
+var product = location.search.slice(1).split("&")[1].split("=")[1]
+var company = location.search.slice(1).split("&")[2].split("=")[1]
+var link = 'priority:priform@' +  screen   + ':' + product + ':' + company + ':tabula.ini:1';
+window.location.replace(link);
+</script>
